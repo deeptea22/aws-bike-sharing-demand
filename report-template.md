@@ -43,7 +43,7 @@ I would also explore about hyperparamenter optimization, trying out different te
 |--|--|--|--|--|
 |initial|-118.456660|117.640689|-160.413078|1.39370|
 |add_features|-33.094410|-32.738870|-115.070481|0.44969|
-|hpo|-38.933626|-38.383378 |-115.070481|0.44844|
+|hpo|'RF': [{'criterion': 'gini', 'ag_args': {'name_suffix': 'Gini', 'problem_types': ['binary', 'multiclass']}}, {'criterion': 'entropy', 'ag_args': {'name_suffix': 'Entr', 'problem_types': ['binary', 'multiclass']}}, {'criterion': 'mse', 'ag_args': {'name_suffix': 'MSE', 'problem_types': ['regression']}},]|'XT': [{'criterion': 'gini', 'ag_args': {'name_suffix': 'Gini', 'problem_types': ['binary', 'multiclass']}}, {'criterion': 'entropy', 'ag_args': {'name_suffix': 'Entr', 'problem_types': ['binary', 'multiclass']}}, {'criterion': 'mse', 'ag_args': {'name_suffix': 'MSE', 'problem_types': ['regression']}},]|'KNN': [{'weights': 'uniform', 'ag_args': {'name_suffix': 'Unif'}}, {'weights': 'distance', 'ag_args': {'name_suffix': 'Dist'}},]|0.44844|
 
 ### Create a line plot showing the top model score for the three (or more) training runs during the project.
 
